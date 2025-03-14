@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.circle-pattern-background {
+	background: radial-gradient(circle at 40% 40%, #bbf7d0 25%, transparent 26%),
+		radial-gradient(circle at 60% 60%, #bbf7d080 25%, transparent 26%);
+	background-size: 2em 2em;
+	background-color: #dcfce7;
+	opacity: 1;
+}
